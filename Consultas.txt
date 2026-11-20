@@ -1,0 +1,9 @@
+?- alumnos_de_carrera(ing_sistemas, L, N, A).
+?- alumnos_de_materia(programacion_i, L, N, A).
+?- materias_de_profesor(carlos_gomez, Id, N).
+?- alumnos_regulares(matematica_i_sistemas, L, N, A).
+?- cumple_requisitos_promocion(1001, programacion_i).
+?- correlativas_faltantes(1002, programacion_ii, R).
+?- puede_cursar(1001, M).
+?- correlativas_totales(ingenieria_de_software, R).
+?- companeros_de_materia(1001, C, M).
